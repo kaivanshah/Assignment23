@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    tools:context="com.kaivanshah.assignment23.MainActivity"
+    android:background="@color/colorGreen" android:gravity="center_vertical" >
+    <EditText
+        android:layout_width="match_parent" android:textSize="20sp" android:layout_marginLeft="20dp" android:layout_marginBottom="20dp" android:layout_marginRight="20dp"  android:background="@color/colorWhite"
+        android:layout_height="50dp" android:id="@+id/txt_Email" android:hint="@string/Email" />
+
+    <EditText
+        android:layout_width="match_parent" android:textSize="20sp"  android:layout_marginLeft="20dp" android:layout_marginBottom="30dp" android:layout_marginRight="20dp"  android:background="@color/colorWhite"
+        android:layout_height="50dp" android:id="@+id/txt_Password" android:layout_below="@id/txt_Email" android:hint="@string/Password" />
+    <Button
+        android:layout_width="match_parent" android:textSize="20sp" android:textColor="@color/colorGreen" android:layout_marginLeft="20dp"  android:layout_below="@id/txt_Password" android:layout_marginBottom="30dp" android:layout_marginRight="20dp"  android:text="@string/Login" android:id="@+id/btn_Login"
+        android:layout_height="50dp" />
+    <TextView
+        android:layout_width="match_parent" android:textColor="@color/colorWhite" android:textSize="25sp" android:layout_below="@id/btn_Login" android:gravity="center_horizontal"
+        android:layout_height="100dp" android:id="@+id/lnk_Signup" android:inputType="textUri" android:text="@string/signup" />
+
+
+</RelativeLayout>
+
